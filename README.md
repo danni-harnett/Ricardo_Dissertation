@@ -12,9 +12,11 @@ This involves converting the coordinates of the bounding boxes from image pixel 
 ## Directory Formatting:
 Create a main folder to house the other directories. In the code given, this folder is called 'DATA_FOR_DIS'
 
-Within this folder, create a folder called 'Annotations'. Put the GeoJSON file from xView here.
-Additionally, create a folder called 'All_images'. Put all xView images here.
-Additionally, create an empty folder called 'Useful_images'. This will eventually contain the images containing NRMM objects.
+- Within this folder, create a folder called 'Annotations'. Put the GeoJSON file from xView here.
+
+- Additionally, create a folder called 'All_images'. Put all xView images here.
+
+- Additionally, create an empty folder called 'Useful_images'. This will eventually contain the images containing NRMM objects.
 
 ## Setting Paths:
 Change the following directory paths:
