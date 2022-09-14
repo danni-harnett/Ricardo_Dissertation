@@ -1,6 +1,20 @@
 
 # NRMM DETECTION FROM HIGH RESOLUTION SATELLITE IMAGERY USING THE YOLOV4
 
+
+ # Data and Data Preparation
+
+ - xView: http://xviewdataset.org/
+ - Roboflow (used for image tiling, augmentation and additional annotations): https://roboflow.com/
+
+
+# YOLOV4 MODEL
+
+- YOLOV4 Publication: https://arxiv.org/abs/2004.10934
+- YOLOV4 - Useful tutorial for model acquisition and training: https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing
+
+
+
 # SECTION 1: xView_geojson_to_yolo.py 
 
 xView provide bounding box annotations for the objects in their dataset in a GeoJSON format.
@@ -64,4 +78,6 @@ Each text file will contain a line for each object it contains. The first value 
     - Bounding box coordinates are found under the "bounds_imcoords" key. 
     
 - The user needs to set the parameters given in Lines 21 - 23 (image number, path to file, coordinates).
+
+
 
