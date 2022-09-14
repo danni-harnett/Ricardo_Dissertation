@@ -51,11 +51,11 @@ Each text file will contain a line for each object it contains. The first value 
 
 
 
-### SECTION 2: plot_annotations_on_images.py
+# SECTION 2: plot_annotations_on_images.py
 
 - This file will plot an image and a given set of bounding box coordinates 
 
-# Requirements: 
+## Requirements: 
 
 - All NRMM images will need to be in the 'Useful_images' directory (aka the xView_geojson_to_yolo.py file will already need to have been run) 
 
