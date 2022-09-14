@@ -1,7 +1,7 @@
 
-### NRMM DETECTION FROM HIGH RESOLUTION SATELLITE IMAGERY USING THE YOLOV4
+# NRMM DETECTION FROM HIGH RESOLUTION SATELLITE IMAGERY USING THE YOLOV4
 
-### SECTION 1: xView_geojson_to_yolo.py 
+# SECTION 1: xView_geojson_to_yolo.py 
 
 xView provide bounding box annotations for the objects in their dataset in a GeoJSON format.
 
