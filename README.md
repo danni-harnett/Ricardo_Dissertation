@@ -8,7 +8,7 @@
  - Roboflow (used for image tiling, augmentation and additional annotations): https://roboflow.com/
 
 
-# YOLOV4 MODEL
+# YOLOV4 Model
 
 - YOLOV4 Publication: https://arxiv.org/abs/2004.10934
 - YOLOV4 - Useful tutorial for model acquisition and training: https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing
@@ -68,6 +68,7 @@ Each text file will contain a line for each object it contains. The first value 
 # SECTION 2: plot_annotations_on_images.py
 
 - This file will plot an image and a given set of bounding box coordinates 
+
 
 ## Requirements: 
 
