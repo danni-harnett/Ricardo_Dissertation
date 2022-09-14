@@ -21,10 +21,13 @@ Create a main folder to house the other directories. In the code given, this fol
 ## Setting Paths:
 Change the following directory paths:
 
-'path' (~line 25) -> set path to 'Annotations' directory
-'image_link' (~line 96) -> adapt path to 'All_images' directory
-'writing_link' (~line 295) -> adapt path to 'Useful_images' directory
-Old_image_link / new_image_link (~line 306) -> adapt 'All_images' and 'Useful_images' paths.
+- 'path' (~line 25) -> set path to 'Annotations' directory
+
+- 'image_link' (~line 96) -> adapt path to 'All_images' directory
+
+- 'writing_link' (~line 295) -> adapt path to 'Useful_images' directory
+
+- Old_image_link / new_image_link (~line 306) -> adapt 'All_images' and 'Useful_images' paths.
 
 
 ## Annotations
@@ -37,6 +40,7 @@ This resulted in 21 smaller geoJSON files which were then manually editted to ma
 This process may not be required if computing resources allow. If so, adjust code accordingly.
 
 ## Running the code:
+
 This code was developed and tested using Pycharm.
 
 
@@ -48,6 +52,7 @@ Each text file will contain a line for each object it contains. The first value 
 
 
 ### SECTION 2: plot_annotations_on_images.py
+
 - This file will plot an image and a given set of bounding box coordinates 
 
 # Requirements: 
